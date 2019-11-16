@@ -7,18 +7,18 @@ body, html, main {
     min-height: 100vh;
     margin: 0px;
     padding: 0px;
-    background-color: black;
+    background-color: grey;
     font-family: 'Lato', sans-serif;
-    color: white;
+    color: black;
 }
 
 .hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/b&w-landscape-web-friendly.jpg);
     height: 25%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background-color: black;
 }
 
 .hero-text {
@@ -39,15 +39,11 @@ nav {
     width: 100%;
 }
 
-/*.desk-men {
-    display: none;
-}*/
-
 ul {
     margin: 0px;
 }
 
-#links li/*, .hanBaoBao*/ {
+#links li {
     margin: 12px 20px 5px 5px;
     position: relative;
     list-style-type: none;
@@ -57,7 +53,6 @@ ul {
 
   .git-link, .fa-envelope, .fa-linkedin {
       margin-left: 20px;
-      /* float: right; */
       margin-bottom: 8px;
       margin-top: 0px;
   }
@@ -111,22 +106,19 @@ ul {
   .alt-menu.responsive {position: relative;}
   .alt-menu.responsive a.icon {
     position: relative;
-    /* right: 0; */
-    /* top: 0; */
   }
 
-  .alt-menu.responsive a {
+  .alt-menu.responsive {
     float: none;
     display: block;
     text-align: left;
   }
   
-  .alt-menu a {
+  .alt-menu {
     float: left;
     display: block;
     color: white;
     background-color: black;
-    /* border: 1px solid white; */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -344,10 +336,6 @@ ul {
         flex-direction: column;
         justify-content: flex-start;
     }
-
-    /*.desk-men {
-        display: none;
-    }*/
 
     .fa-envelope, .fa-linkedin, .hanBaoBao {
         font-size: 30px;
